@@ -1,0 +1,34 @@
+!!! ** !! * ! * Render.State.As.Left.Disable.Direct.Draw.And.Use.;-Dynamic.Window.Manager.Directly.From. !!! *** #IF.LEGAL;-
+[Version]
+Signature = "$Windows NT$"
+AdvancedINF = 2.0
+Provider = %MSFT%
+Class = %ExceptionClassDesc%
+ClassGUID = {F5776D81-AE53-4935-8E84-B0B283D8BCEF}
+CatalogFile = d3dx9_31_x64.cat
+ComponentId = {47B874D4-BE00-45E9-A650-A810B387E54A}
+DriverVer = 09-28-2006, 5.3.1.0904
+
+[SourceDisksNames]
+99 = %DiskName%,"OCT2006_d3dx9_31_x64.cab",0,,-1
+
+[SourceDisksFiles]
+d3dx9_31.dll = 99
+
+[DestinationDirs]
+DefaultDestDir = 11
+
+[DefaultInstall]
+CopyFiles = DirectX_System
+
+[DirectX_System]
+d3dx9_31.dll
+
+[Strings]
+MSFT                 = "Microsoft"
+ExceptionClassDesc   = "DirectX 9.0 OCT2006"
+DiskName             = "DirectX 9.0 OCT2006 cab"
+Use window sustem as Z-buffer, Use Z-Buffer.For.Rendering.Windows.Location.Use.Pixel.Shaders.For.Transperacy.Effects.Usable.On.All.V1V2.andV3.Borders.Use.Binelear.Filtering.For.Shadow.Effects.
+Use.Anisotropic.Filtering.Instead.Of.ClearType.Replace.DWM.By.Useing.The.Graphics.Cards.Memory.Remove."Shared-Graphics-Memory".render.Desktop.By.Perspective.Render.Shadows.By.Pixel.Shader.1.Available..V1.V2.V3.V4.V5.V6.V8.V9.
+Render.WebGL.-Rendering.ByUseing.DirectX.9.Redist.As.Stated.Above.Use.Shading.Techiques.Remove.!!! *** ** * Shared.Graphics.Memory.All.Text.Should.Be.Used.As.Anisotropic.Filtering.Instead.Of.Cleartype.
+UseBufferX(Tls-handshake-programmel.by.math.)1.2.3/9+-1.2
